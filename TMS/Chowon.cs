@@ -76,6 +76,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return bool
+        /// 
         public bool UpdateFeeTable()
         {
             return true;
@@ -89,6 +90,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return bool
+        /// 
         public bool AddCarrierData()
         {
             return true;
@@ -102,6 +104,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return bool
+        /// 
         public bool UpdateCarrierData()
         {
             return true;
@@ -115,6 +118,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return bool
+        /// 
         public bool DeleteCarrierData()
         {
             return true;
@@ -128,6 +132,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return bool
+        /// 
         public bool BackupData()
         {
             return true;
@@ -141,6 +146,7 @@ namespace TMS
         /// 
         /// \param int logfileID : this is the ID of the logfile to be read.
         /// \return string data  : this is the loaded data string from the requested logfile.
+        /// 
         public string GetLogFile(int logfileID)
         {
             string data = "data";
@@ -155,6 +161,7 @@ namespace TMS
         /// 
         /// \param string ip : this is the IP address to be set.
         /// \return bool
+        /// 
         public bool ChangeIpAddress(string ip)
         {
             return true;
@@ -168,6 +175,7 @@ namespace TMS
         /// 
         /// \param string port : this is the port string to be set.
         /// \return bool
+        /// 
         public bool ChangeIpPort(string port)
         {
             return true;
@@ -181,6 +189,7 @@ namespace TMS
         /// 
         /// \param string dir : this is the directory to be set.
         /// \return bool
+        /// 
         public bool SetLogDirectory(string dir)
         {
             return true;
@@ -209,6 +218,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return string customer : ?
+        /// 
         public string ExistingCustomer()
         {
             string customer = "customer1";
@@ -223,6 +233,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return bool
+        /// 
         public bool AddNewCustomer()
         {
             return true;
@@ -236,6 +247,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return void
+        /// 
         public void SetRelevantCity()
         {
 
@@ -249,6 +261,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return void
+        /// 
         public void SetCarrier()
         {
 
@@ -262,6 +275,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return objec textfile : this is the invoice textfile.
+        /// 
         public object SetInvoice()
         {
             var textfile = new object();
@@ -291,6 +305,7 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return void
+        /// 
         public void GetReport()
         {
 
