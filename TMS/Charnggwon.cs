@@ -8,8 +8,7 @@ namespace TMS
 {
     class Charnggwon
     {
-
-
+         int i;
 
 
     }
