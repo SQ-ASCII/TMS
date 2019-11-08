@@ -59,6 +59,7 @@
     <Compile Include="Chowon.cs" />
     <Compile Include="Hyungbum.cs" />
     <Compile Include="message.cs" />
+    <Compile Include="Planner.cs" />
     <Compile Include="Younchul.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
