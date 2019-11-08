@@ -1,6 +1,7 @@
 --
 -- Create schema tms
 --
+
 DROP DATABASE IF EXISTS tms;
 
 CREATE DATABASE IF NOT EXISTS tms;
