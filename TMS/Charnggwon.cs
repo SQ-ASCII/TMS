@@ -6,7 +6,36 @@ using System.Threading.Tasks;
 
 namespace TMS
 {
-    class Charnggwon
-    {
+    class Order
+    {    
+         private int OrderID;
+         private double Capacity;
+         private int Trip;
+         private bool Complete;
+         private string DestStreetAddress;
+         private string DestCity;
+         private string DestPostalCode;
+         private string invoiceDate;
+
+         public void getOrder(int i)
+         {
+         }
+
+         public void setNewOrder()
+         {
+         }
+
+         public void setTrip()
+         {
+         }
+
+         public void completeOrder(bool b)
+         {
+         }
+
+         public void getActivityOrder()
+         {
+         }
+ 
     }
 }
