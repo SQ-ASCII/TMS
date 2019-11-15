@@ -1,7 +1,7 @@
 ﻿
 using System.Diagnostics;
 
-namespace Module08
+namespace TMS
 {
     public static class Logger
     {
