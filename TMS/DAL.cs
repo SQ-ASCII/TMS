@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 
-namespace Module08
+namespace TMS
 {
     public class DAL
     {
