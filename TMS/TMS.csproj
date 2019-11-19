@@ -61,7 +61,6 @@
     <Compile Include="LocalDatabase.cs" />
     <Compile Include="LogFile.cs" />
     <Compile Include="message.cs" />
-    <Compile Include="Planner.cs" />
     <Compile Include="RemoteDatabase.cs" />
     <Compile Include="Younchul.cs" />
     <Page Include="MainWindow.xaml">
