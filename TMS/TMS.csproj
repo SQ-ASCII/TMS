@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="Charnggwon.cs" />
     <Compile Include="Chowon.cs" />
+    <Compile Include="DataStorage.cs" />
     <Compile Include="Hyungbum.cs" />
     <Compile Include="message.cs" />
     <Compile Include="Younchul.cs" />
