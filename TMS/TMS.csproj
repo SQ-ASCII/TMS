@@ -57,6 +57,9 @@
     </ApplicationDefinition>
     <Compile Include="Charnggwon.cs" />
     <Compile Include="Chowon.cs" />
+    <Compile Include="DAL.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="DataStorage.cs" />
     <Compile Include="FileLog.cs" />
     <Compile Include="Hyungbum.cs" />
