@@ -24,27 +24,13 @@ namespace TMS
         private DateTime AccessDate { get; set; }   /// the last time stamp of the user accessed
 
         ///
-        /// <b>Main function</b>
-        /// \brief This is the main method of the <i>User Class</i> inherited by Admin, Buyer, Planner class
-        /// \details <b>Details</b>
-        /// This is the main method of User class that is the basis of the Admin, Buyer and Planner class.
-        /// 
-        /// \param N/A
-        /// \return void
-        /// 
-        public void main()
-        {
-
-        }
-
-        ///
-        /// <b>Method method name()</b>
-        /// \brief <i>method name()</i> bried description
+        /// <b>Method CheckUser()</b>
+        /// \brief <i>CheckUser()</i> bried description
         /// \details <b>Details</b>
         /// detailed description
         /// 
-        /// \param parameter description
-        /// \return description
+        /// \param N/A
+        /// \return bool
         /// 
         public bool CheckUser()
         {
