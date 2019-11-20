@@ -33,12 +33,12 @@ namespace TMS
     ///	Order(void) : default constructor
     ///	~Order(void) : destructor
     ///
-    ///	void GetOrder(int)					    : accessor to get the infomation of an order
+    ///	int GetOrder(void)					    : accessor to get the infomation of an order
     ///	void SetNewOrder(int)				    : mutator to set the information of new order
     ///		  
-    ///	void SetTrip(void)	                    : mutator to set the number of trips
-    ///	void CompleteOrder(bool)		        : method to set the state of completion
-    ///	void GetActivityOrder(void)		        : accessor to get the information on active orders
+    ///	void SetTrip(int)	                    : mutator to set the number of trips
+    ///	bool CompleteOrder(int)		            : method to set the state of completion
+    ///	string GetActivityOrder(void)		    : accessor to get the information on active orders
     ///
     /// \author <i>Charng Gwon Lee</i>
     ///
@@ -62,12 +62,12 @@ namespace TMS
         /// \details <b>Details</b>
         /// The purpose of this function is to get the detail information about an order
         /// 
-        /// \param OrderID  - <b>int</b> - representation of the order ID
-        /// \return N/A - no return value
+        /// \param N/A
+        /// \return Returns the integer type for the ID of an order
         /// 
-        /// \see Buyer()
+        /// \see Buyer(), Planner()
         /// 
-        public void GetOrder(int OrderID)
+        public int GetOrder(void)
         {
         }
 
@@ -80,7 +80,7 @@ namespace TMS
         /// \param OrderID  - <b>int</b> - representation of the order ID
         /// \return N/A - no return value
         /// 
-        /// \see Buyer()
+        /// \see Buyer(), Planner()
         /// 
         public void SetNewOrder(int OrderID)
         {
@@ -92,12 +92,12 @@ namespace TMS
         /// \details <b>Details</b>
         /// The purpose of this function is to set the detail information about trips
         /// 
-        /// \param N/A
+        /// \param Trip  - <b>int</b> - representation of the number of trip
         /// \return N/A - no return value
         /// 
-        /// \see Buyer()
+        /// \see Buyer(), Planner()
         /// 
-        public void SetTrip(void)
+        public void SetTrip(int Trip)
         {
         }
 
@@ -107,12 +107,12 @@ namespace TMS
         /// \details <b>Details</b>
         /// The purpose of this function is to set the state of completion
         /// 
-        /// \param Complete  - <b>bool</b> - representation of the state of completion
-        /// \return N/A - no return value
+        /// \param OrderID  - <b>int</b> - representation of the order ID
+        /// \return Returns the bool type for the state of completion
         /// 
-        /// \see Buyer()
+        /// \see Buyer(), Planner()
         /// 
-        public void CompleteOrder(bool Complete)
+        public bool CompleteOrder(int OrderID)
         {
         }
 
@@ -123,11 +123,11 @@ namespace TMS
         /// The purpose of this function is to get the detail information about active orders
         /// 
         /// \param N/A
-        /// \return N/A - no return value
+        /// \return Returns the string type for the active orders
         /// 
-        /// \see Buyer()
+        /// \see Buyer(), Planner()
         /// 
-        public void GetActivityOrder(void)
+        public string GetActivityOrder(void)
         {
         }
     }
