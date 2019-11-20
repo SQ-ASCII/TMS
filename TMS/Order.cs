@@ -118,12 +118,12 @@ namespace TMS
 
         ///
         /// <b>Method GetActivityOrder()</b>
-        /// \brief <i>GetActivityOrder()</i> This method gets the information on active orders
+        /// \brief <i>GetActivityOrder()</i> This method gets the information on aggregate orders
         /// \details <b>Details</b>
-        /// The purpose of this function is to get the detail information about active orders
+        /// The purpose of this function is to get the detail information about aggregate orders
         /// 
         /// \param N/A
-        /// \return Returns the string type for the active orders
+        /// \return Returns the string type for the aggregate orders
         /// 
         /// \see Buyer(), Planner()
         /// 
