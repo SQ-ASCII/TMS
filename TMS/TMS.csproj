@@ -58,10 +58,15 @@
     <Compile Include="Charnggwon.cs" />
     <Compile Include="Chowon.cs" />
     <Compile Include="DAL.cs" />
-    <Compile Include="Hyungbum.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="message.cs" />
     <Compile Include="Order.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="DataStorage.cs" />
+    <Compile Include="FileLog.cs" />
+    <Compile Include="Hyungbum.cs" />
+    <Compile Include="LocalDatabase.cs" />
+    <Compile Include="LogFile.cs" />
+    <Compile Include="message.cs" />
+    <Compile Include="RemoteDatabase.cs" />
     <Compile Include="Younchul.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -101,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TMS.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
