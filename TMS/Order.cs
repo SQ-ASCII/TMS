@@ -65,6 +65,8 @@ namespace TMS
         /// \param OrderID  - <b>int</b> - representation of the order ID
         /// \return N/A - no return value
         /// 
+        /// \see Buyer()
+        /// 
         public void GetOrder(int OrderID)
         {
         }
@@ -77,6 +79,8 @@ namespace TMS
         /// 
         /// \param OrderID  - <b>int</b> - representation of the order ID
         /// \return N/A - no return value
+        /// 
+        /// \see Buyer()
         /// 
         public void SetNewOrder(int OrderID)
         {
@@ -91,6 +95,8 @@ namespace TMS
         /// \param N/A
         /// \return N/A - no return value
         /// 
+        /// \see Buyer()
+        /// 
         public void SetTrip(void)
         {
         }
@@ -104,6 +110,8 @@ namespace TMS
         /// \param Complete  - <b>bool</b> - representation of the state of completion
         /// \return N/A - no return value
         /// 
+        /// \see Buyer()
+        /// 
         public void CompleteOrder(bool Complete)
         {
         }
@@ -116,6 +124,8 @@ namespace TMS
         /// 
         /// \param N/A
         /// \return N/A - no return value
+        /// 
+        /// \see Buyer()
         /// 
         public void GetActivityOrder(void)
         {
