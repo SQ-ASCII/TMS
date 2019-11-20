@@ -8,10 +8,14 @@ namespace TMS
 {
     /* -------------------------- User -------------------------- */
     ///
+    /// \class User Class
+    ///
     /// \brief <i>User Class</i> inherited by Admin, Buyer, Planner class
     /// \details <b>Details</b>
     /// This class is the basis of the Admin, Buyer and Planner class.
     /// 
+    /// \author Chowon Jung
+    ///
     class User
     {
         ///
@@ -41,12 +45,17 @@ namespace TMS
 
     /* -------------------------- Admin -------------------------- */
     ///
+    /// \class Admin : User Class
+    ///
+    ///
     /// \brief <i>Admin Class</i> inherits from the User class
     /// \details <b>Details</b>
     /// This class inherits from the User class.
     /// Having additional properties and methods for the management of the database and the network settings,
     /// this class provides functionalities for Admin account of TMS application.
     /// 
+    /// \author Chowon Jung
+    ///
     class Admin : User
     {
         ///
@@ -185,9 +194,13 @@ namespace TMS
 
     /* -------------------------- Buyer -------------------------- */
     ///
+    /// \class Buyer : User
+    ///
     /// \brief <i>Buyer Class</i> inherits User class
     /// \details <b>Details</b>
     /// class description here
+    /// 
+    /// \author Chowon Jung
     /// 
     class Buyer : User
     {
@@ -272,10 +285,15 @@ namespace TMS
 
     /* -------------------------- Planner -------------------------- */
     ///
+    /// \class Planner : User
+    ///
     /// \brief <i>Planner Class</i> inherits User class
     /// \details <b>Details</b>
     /// class description here
+    ///
     /// 
+    /// \author Chowon Jung
+    ///
     class Planner : User
     {
         ///
