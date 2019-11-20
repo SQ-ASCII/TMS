@@ -47,7 +47,6 @@ namespace TMS
     ///
     /// \class Admin : User Class
     ///
-    ///
     /// \brief <i>Admin Class</i> inherits from the User class
     /// \details <b>Details</b>
     /// This class inherits from the User class.
