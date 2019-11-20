@@ -60,7 +60,10 @@
     <Compile Include="DataStorage.cs" />
     <Compile Include="FileLog.cs" />
     <Compile Include="Hyungbum.cs" />
+    <Compile Include="LocalDatabase.cs" />
+    <Compile Include="LogFile.cs" />
     <Compile Include="message.cs" />
+    <Compile Include="RemoteDatabase.cs" />
     <Compile Include="Younchul.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
