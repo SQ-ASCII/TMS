@@ -208,5 +208,59 @@ namespace TMS
 
             return name;
         }
+	    
+	///
+        /// <b>Method AddCarrier()</b>
+        /// \brief <i>AddCarrier()</i> This method add the new carrier(driver)
+        /// \details <b>Details</b>
+        /// The purpose of this function is adding the new carrier information to the external database
+        /// 
+        /// \param capacity  - <b>int</b> - representation of maximum capacity that can carry
+        /// \param name  - <b>string</b> - representation of carrier's name
+        /// \return Returns the bool type that indicates adding the information successfully or not.
+        ///
+        public bool AddCarrier(int capacity, string name)
+        {
+            bool retValue = false;
+
+            return retValue;
+        }
+
+
+        ///
+        /// <b>Method UpdateCarrier()</b>
+        /// \brief <i>UpdateCarrier()</i> This method update the carrier(driver) information
+        /// \details <b>Details</b>
+        /// The purpose of this function is updating the existing carrier information to the external database
+        /// 
+        /// \param id  - <b>int</b> - representation of identifying the number of the carrier
+        /// \param capacity  - <b>int</b> - representation of maximum capacity that can carry
+        /// \param name  - <b>string</b> - representation of carrier's name
+        /// \return Returns the bool type that indicates updating the information successfully or not.
+        ///
+        public bool UpdateCarrier(int id, int capacity, string name)
+        {
+            bool retValue = false;
+
+            return retValue;
+        }
+
+
+        ///
+        /// <b>Method RemoveCarrier()</b>
+        /// \brief <i>RemoveCarrier()</i> This method delete the carrier(driver) information
+        /// \details <b>Details</b>
+        /// The purpose of this function is delete the existing carrier information to the external database
+        /// 
+        /// \param id  - <b>int</b> - representation of identifying the number of the carrier
+        /// \param name  - <b>string</b> - representation of carrier's name
+        /// \return Returns the bool type that indicates deleting the information successfully or not.
+        ///
+        public bool RemoveCarrier(int id, string name)
+        {
+            bool retValue = false;
+
+            return retValue;
+        }
     }
 }
