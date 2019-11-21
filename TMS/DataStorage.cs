@@ -20,8 +20,8 @@ namespace TMS
     ///
     /// Within the class definition :
     /// - class data members (attributes)
-    ///	int StorageID : It will contain the radius size of circle
-    ///	string StorageName : It will contain the side length size of square
+    ///	int StorageID : It will contain the ID of storage number
+    ///	string StorageName : It will contain the name of storage name
     ///
     /// - methods
     ///	DataStorage(void) : default constructor
