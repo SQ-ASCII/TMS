@@ -16,7 +16,7 @@ using System.Data;
 namespace TMS
 {
     /// 
-    /// \class FileLog
+    /// \class LogFile
     ///
     /// \brief The purpose of this class is to model the create and write the log file into the file.
     /// This class has one data member to indicate the file stream.
@@ -59,14 +59,14 @@ namespace TMS
         MySqlDataReader rdr;
 
         ///
-        /// <b>Method FileLog()</b>
-        /// \brief <i>FileLog()</i> To instantiate a new FileLog object
+        /// <b>Method LogFile()</b>
+        /// \brief <i>LogFile()</i> To instantiate a new LogFile object
         /// \details <b>Details</b>
-        /// This is a FileLog's default constructor, it will set up the file stream.
+        /// This is a LogFile's default constructor, it will set up the file stream.
         /// The default file name is "LogFile.txt" with append mode.
         /// 
         /// \param N/A
-        /// \return As this is a <i>default constructor</i> for the FileLog class, nothing is returned
+        /// \return As this is a <i>default constructor</i> for the LogFile class, nothing is returned
         /// 
         public LogFile()
         {
