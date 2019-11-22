@@ -226,15 +226,15 @@ namespace TMS
         }
 
         ///
-        /// <b>Method AddNewCustomer()</b>
-        /// \brief <i>AddNewCustomer()</i> This method adds new customer to the database.
+        /// <b>Method AcceptNewCustomer()</b>
+        /// \brief <i>AcceptNewCustomer()</i> This method accepts new customer to the existing customer list.
         /// \details <b>Details</b>
         /// detailed description
         /// 
         /// \param N/A
         /// \return bool
         /// 
-        public bool AddNewCustomer()
+        public bool AcceptNewCustomer()
         {
             return true;
         }
@@ -249,20 +249,6 @@ namespace TMS
         /// \return void
         /// 
         public void SetRelevantCity()
-        {
-
-        }
-
-        ///
-        /// <b>Method SetCarrier()</b>
-        /// \brief <i>SetCarrier()</i> This method allocates carrier to the order.
-        /// \details <b>Details</b>
-        /// detailed description
-        /// 
-        /// \param N/A
-        /// \return void
-        /// 
-        public void SetCarrier()
         {
 
         }
@@ -312,6 +298,21 @@ namespace TMS
         /// \return void
         /// 
         public void GetReport()
+        {
+
+        }
+        
+        
+        ///
+        /// <b>Method SetCarrier()</b>
+        /// \brief <i>SetCarrier()</i> This method allocates carrier to the order.
+        /// \details <b>Details</b>
+        /// detailed description
+        /// 
+        /// \param N/A
+        /// \return void
+        /// 
+        public void SetCarrier()
         {
 
         }
