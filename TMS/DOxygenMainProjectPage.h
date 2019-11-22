@@ -1,6 +1,6 @@
 /// \mainpage TMS Project   
 /// \note This application is a transportation management system for Omnicorp Shipping Handling and Transportation members
-/// \image html SimpleDog.jpg
+/// \image html watermark.jpg
 ///
 ///
 /// \section intro Program Introduction
