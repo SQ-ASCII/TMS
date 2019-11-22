@@ -13,6 +13,8 @@ namespace TMS
     /// \brief <i>User Class</i> inherited by Admin, Buyer, Planner class
     /// \details <b>Details</b>
     /// This class is the basis of the Admin, Buyer and Planner class.
+    /// It contains common properties as user ID, password, first and last name,
+    /// and the timestamp of the last access of the user.
     /// 
     /// \author Chowon Jung
     ///
@@ -29,7 +31,7 @@ namespace TMS
 
         ///
         /// <b>Method CheckUser()</b>
-        /// \brief <i>CheckUser()</i> bried description
+        /// \brief <i>CheckUser()</i> brief description
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -78,7 +80,7 @@ namespace TMS
 
         ///
         /// <b>Method AddCarrierData()</b>
-        /// \brief <i>AddCarrierData()</i> This method 
+        /// \brief <i>AddCarrierData()</i> This method adds a carrier data into the database.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -92,7 +94,7 @@ namespace TMS
 
         ///
         /// <b>Method UpdateCarrierData()</b>
-        /// \brief <i>UpdateCarrierData()</i> This method 
+        /// \brief <i>UpdateCarrierData()</i> This method updates existing carrier data.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -106,7 +108,7 @@ namespace TMS
 
         ///
         /// <b>Method DeleteCarrierData()</b>
-        /// \brief <i>DeleteCarrierData()</i> This method 
+        /// \brief <i>DeleteCarrierData()</i> This method removes an existing carrier data.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -120,7 +122,7 @@ namespace TMS
 
         ///
         /// <b>Method BackupData()</b>
-        /// \brief <i>BackupData()</i> This method 
+        /// \brief <i>BackupData()</i> This method process a data backup for the full TMS DB.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -134,7 +136,7 @@ namespace TMS
 
         ///
         /// <b>Method GetLogFile()</b>
-        /// \brief <i>GetLogFile()</i> This method 
+        /// \brief <i>GetLogFile()</i> This method load and reads requested log file.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -149,7 +151,7 @@ namespace TMS
 
         ///
         /// <b>Method ChangeIpAddress()</b>
-        /// \brief <i>ChangeIpAddress()</i> This method 
+        /// \brief <i>ChangeIpAddress()</i> This method modifies IP address to the newly given address.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -163,7 +165,7 @@ namespace TMS
 
         ///
         /// <b>Method ChangeIpPort(</b>
-        /// \brief <i>ChangeIpPort()</i> This method 
+        /// \brief <i>ChangeIpPort()</i> This method modifies the port to the newly given port.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -177,7 +179,7 @@ namespace TMS
 
         ///
         /// <b>Method SetLogDirectory()</b>
-        /// \brief <i>SetLogDirectory()</i> This method 
+        /// \brief <i>SetLogDirectory()</i> This method sets the file directory for the log files.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -210,7 +212,7 @@ namespace TMS
 
         ///
         /// <b>Method ExistingCustomer()</b>
-        /// \brief <i>ExistingCustomer()</i> This method 
+        /// \brief <i>ExistingCustomer()</i> This method reads existing customers in.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -239,7 +241,7 @@ namespace TMS
 
         ///
         /// <b>Method SetRelevantCity()</b>
-        /// \brief <i>SetRelevantCity()</i> This method 
+        /// \brief <i>SetRelevantCity()</i> This method sets relevant cities into the order.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -253,7 +255,7 @@ namespace TMS
 
         ///
         /// <b>Method SetCarrier()</b>
-        /// \brief <i>SetCarrier()</i> This method 
+        /// \brief <i>SetCarrier()</i> This method allocates carrier to the order.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -267,7 +269,7 @@ namespace TMS
 
         ///
         /// <b>Method SetInvoice()</b>
-        /// \brief <i>SetInvoice()</i> This method 
+        /// \brief <i>SetInvoice()</i> This method creates invoice text file of the order.
         /// \details <b>Details</b>
         /// detailed description
         /// 
@@ -302,7 +304,7 @@ namespace TMS
 
         ///
         /// <b>Method GetReport()</b>
-        /// \brief <i>GetReport()</i> This method 
+        /// \brief <i>GetReport()</i> This method creates a summary report of existing order.
         /// \details <b>Details</b>
         /// detailed description
         /// 
