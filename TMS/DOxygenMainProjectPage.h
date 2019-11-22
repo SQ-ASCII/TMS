@@ -41,8 +41,8 @@
 /// This program is developed by <b>Visual Studio 2019</b> in the <i>window platform</i>.
 ///
 /// <hr> 
-/// \todo [optionally include text about more work to be done]
-/// \todo Give each todo item its own line
+/// \todo -# Create and connect database
+/// \todo -# Function test
 ///
 /// <hr>
 /// \section version Current version of the Dog Project :
