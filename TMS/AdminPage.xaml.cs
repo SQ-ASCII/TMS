@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace TMS
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AdminPage.xaml
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class AdminPage : Page
     {
-        public MainWindow()
+        public AdminPage()
         {
             InitializeComponent();
         }

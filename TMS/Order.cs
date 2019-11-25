@@ -67,8 +67,10 @@ namespace TMS
         /// 
         /// \see Buyer(), Planner()
         /// 
-        public int GetOrder(void)
+        public int GetOrder()
         {
+            int result = 0;
+            return result;
         }
 
         ///
@@ -114,6 +116,8 @@ namespace TMS
         /// 
         public bool CompleteOrder(int OrderID)
         {
+            bool result = false;
+            return result;
         }
 
         ///
@@ -127,8 +131,10 @@ namespace TMS
         /// 
         /// \see Buyer(), Planner()
         /// 
-        public string GetActivityOrder(void)
+        public string GetActivityOrder()
         {
+            string result = "";
+            return result;
         }
     }
 }
